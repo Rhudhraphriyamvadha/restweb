@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MENU</title>
+        </div>
+
+    <style>
+        /* General body styles */
+        body {
+            font-family:'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://example.com/background.jpg'); /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+
+        /* Overlay to darken the background image */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: lavender;
+            z-index: -1;
+        }
+
+        /* Main container */
+        .menu-container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: rgba(222, 196, 220, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(245, 179, 243, 0.16);
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            text-align: center;
+            padding: 20px 0;
+            color: #fff;
+            background-color: #723c6b; /* Orange header */
+            border-radius: 15px 15px 0 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        /* Section titles */
+        h2 {
+            text-align: center;
+            color: #27ae60; /* Green color */
+            border-bottom: 2px solid #d35400;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        /* Menu items */
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        .menu-item img {
+            width: 150px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .menu-item-details {
+            flex-grow: 1;
+            margin-left: 18px;
+        }
+
+        .menu-item-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #34495e;
+        }
+
+        .menu-item-price {
+            font-size: 20px;
+            color: #e74c3c;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #bdc3c7;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            .menu-container {
+                width: 95%;
+            }
+
+            .menu-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .menu-item img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body bgcolor="lavender">
+<div class="overlay"></div>
+
+<header>
+    <h1>WELCOME TO OUR RESTAURENT</h1>    
+</header>
+
+<div class="menu-container">
+
+    <div class="menu-section">
+        <h2>STARTERS</h2>
+        <div class="menu-item">
+            <img src="/static/samosa.webp" alt="Veg samosa"> <!-- Replace with your image -->
+            <div class="menu-item-details">
+                <p class="menu-item-name">Veg samosa</p>
+                <p class="description">Fried with groundnut oil with mashed potato masala.</p>
+            </div>
+            <p class="menu-item-price">Rs.25</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="/static/gobi manchurian.jpg" alt="Gobi manchurian"> 
+            <div class="menu-item-details">
+                <p class="menu-item-name">Gobi manchurian</p>
+                <p class="description">Savory cauliflower tossed with rich chinese sauces.</p>
+            </div>
+            <p class="menu-item-price">Rs.90</p>
+        </div>
+        <div class="menu-item">
+            <img src="/static/chicken-65.webp" alt="Chicken 65"> 
+            <div class="menu-item-details">
+                <p class="menu-item-name">Chicken 65</p>
+                <p class="description">High quality chicken fried and served with rich flavors.</p>
+            </div>
+            <p class="menu-item-price">Rs.150</p>
+        </div>
+        <div class="menu-item">
+            <img src="/static/Veg-Cutlet-1.jpg"alt="Veg cutlet">
+            <div class="menu-item-details">
+                <p class="menu-item-name">Veg cutlet</p>
+                <p class="description">Mashed potato, vegetables, fried as paties.</p>
+            </div>
+            <p class="menu-item-price">Rs.75</p>
+    </div>
+    <div class="menu-item">
+        <img src="/static/panerr roll.jpg"alt="Paneer roll"> 
+        <div class="menu-item-details">
+            <p class="menu-item-name">Paneer roll</p>
+            <p class="description">Freshly made paneer rolled by a wrap with some veggies.</p>
+        </div>
+        <p class="menu-item-price">Rs.50</p>
+</div>
+<div class="menu-item">
+    <img src="/static/chicken kebab.avif"alt="Chicken tikka kebab"> 
+    <div class="menu-item-details">
+        <p class="menu-item-name">Chicken tikka kebab</p>
+        <p class="description">High quality chicken grilled with some veggies.</p>
+    </div>
+    <p class="menu-item-price">Rs.70</p>
+</div>
+
+    
+
+    <div class="menu-section">
+        <h2>MAIN COURSES</h2>
+        <div class="menu-item">
+            <img src="/static/dosa.jpg" alt="Dosa"> 
+            <div class="menu-item-details">
+                <p class="menu-item-name">Dosa</p>
+                <p class="description">Thin crepe served with sambar and chutney.</p>
+            </div>
+            <p class="menu-item-price">Rs.40</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="/static/chicken biriyani.avif" alt="Chicken Biriyani"> 
+            <div class="menu-item-details">
+                <p class="menu-item-name">Chicken Biriyani</p>
+                <p class="description">Delicious biriyani made with high quality chicken and rice.</p>
+            </div>
+            <p class="menu-item-price">Rs.99</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="/static/parotta.avif" alt="Parotta"> 
+        <div class="menu-item-details">
+            <p class="menu-item-name">Parotta</p>
+            <p class="description">Soft and flaky parottas served with varieties of currys.</p>
+        </div>
+        <p class="menu-item-price">Rs.55</p>
+    </div>
+</div>
+<div class="menu-item">
+    <img src="/static/paneer-butter-masala-.webp" alt="Naan with paneer butter masala"> 
+    <div class="menu-item-details">
+        <p class="menu-item-name">Naan with paneer butter masala</p>
+        <p class="description">Soft and falky naan made with fresh panner and butter.</p>
+    </div>
+    <p class="menu-item-price">Rs.80</p>
+</div>
+<div class="menu-item">
+    <img src="/static/chapathi.jpg" alt="Chapthi with chicken curry"> <!-- Replace with your image -->
+    <div class="menu-item-details">
+        <p class="menu-item-name">Chapthi with chicken curry</p>
+        <p class="description">SOft and flaky chapathi served with a curry made of high quality chicken.</p>
+    </div>
+    <p class="menu-item-price">Rs.95</p>
+</div>
+
+
+
+    <div class="menu-section">
+        <h2>DESSERTS</h2>
+        <div class="menu-item">
+            <img src="/static/rasagulla.jpg" alt="Rasagulla"> 
+            <div class="menu-item-details">
+                <p class="menu-item-name">Rasagulla</p>
+                <p class="description">Soft and fluffy ball made from malai and soaked in sugar water.</p>
+            </div>
+            <p class="menu-item-price">Rs.55</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="/static/gulab jamun.jpg" alt="Gulab jamun"> 
+            <div class="menu-item-details">
+                <p class="menu-item-name">Gulab jamun</p>
+                <p class="description">Soft and fluffy ball made from kova and flour and soaked in sugar water.</p>
+            </div>
+            <p class="menu-item-price">Rs.55</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="/static/rasamalai 1.png" alt="Rasamalai"> 
+        <div class="menu-item-details">
+            <p class="menu-item-name">Rasamalai</p>
+            <p class="description">Soft disks made from malai and soaked in sweet and flavorful milk.</p>
+        </div>
+        <p class="menu-item-price">Rs.65</p>
+    </div>
+    <div class="menu-item">
+        <img src="/static/kaju katli.png" alt="Kaju katli"> 
+        <div class="menu-item-details">
+            <p class="menu-item-name">Kaju katli</p>
+            <p class="description">Soft and made with cashews and topped with silver foil.</p>
+        </div>
+        <p class="menu-item-price">Rs.70</p>
+    </div>
+    
+        
+    <div class="menu-section">
+    <h2>DRINKS</h2>
+        <div class="menu-item">
+            <img src="/static/coffee.jpg" alt="Coffee">
+            <div class="menu-item-details">
+                <p class="menu-item-name">Coffee</p>
+                <p class="description">Milk,sugar and coffee powder</p>
+            </div>
+            <p class="menu-item-price">Rs.20</p>
+        </div>
+        <div class="menu-item">
+            <img src="/static/tea.jpg" alt="Tea"> 
+            <div class="menu-item-details">
+                <p class="menu-item-name">Tea</p>
+                <p class="description">Milk,sugar and tea powder.</p>
+            </div>
+            <p class="menu-item-price">Rs.20</p>
+        </div>
+        <div class="menu-item">
+            <img src="/static/milkshake.jpg" alt="Milkshake"> 
+            <div class="menu-item-details">
+                <p class="menu-item-name">Milkshake</p>
+                <p class="description">Milk added cream and with varieties of flavor</p>
+            </div>
+            <p class="menu-item-price">Rs.40</p>
+        </div>
+        <div class="menu-item">
+            <img src="/static/juices.webp" alt="Fresh juices"> 
+            <div class="menu-item-details">
+                <p class="menu-item-name">Fresh juices</p>
+                <p class="description">Fresh friuts are blended with sugar and ice.</p>
+            </div>
+            <p class="menu-item-price">Rs.50</p>
+        </div>
+    </div>
+        
+        
+    <tr>
+        <td><h4 style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;"><center>Taste the difference 🧋, Return for excellence 😜!!!</center></h4></td>
+    </tr>
+    <p style="font-size: large; font-family: 'Times New Roman', Times, serif; color:deeppink;"><b>WE'RE HERE FOR YOU</b></p>
+    <p style="font-size: large; font-family: 'Times New Roman', Times, serif; color: deeppink;"><b>PHONE: +91 0123456789| EMAIL ID: littlelemon@gmail.com</b></p>
+    <p style="font-size: large; font-family: 'Times New Roman', Times, serif; color: deeppink;"><b>ADDRRESS: Near SEC College, Thandalam, Chennai</b></p>
+
+    <footer>
+        
+            <p align="center" class="copy">&copy; Copyright Little Lemon</p>
+
+        <h3 align="center" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; ">
+            Developed and designed by Rhudhra phriyamvadha K S</h3>
+
+            <div class="logo">
+                <img src="/static/logo.png" width="50" height="50" alt="Little Lemon Logo">
+            </div>
+            
+    </footer>
+</body>
+</html>
