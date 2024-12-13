@@ -36,7 +36,7 @@ frontpage.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LITTLE LEMON</title>
+    <title>HOME</title>
 </head>
 
 <style>
@@ -102,8 +102,8 @@ nav ul li a {
     color: black;
 }
 .hours{
-    width: 300px;
-    height: 80px;
+    width: 900px;
+    height: 400px;
 }
 
 .banner {
@@ -176,7 +176,7 @@ ul {
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html">About us </a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="admin.html">Admin</a></li>
                 <li><a href="contact.html">Contact us</a></li>
@@ -226,7 +226,7 @@ ul {
                 <p align="center" class="copy">&copy; Copyright Little Lemon</p>
 
             <h3 align="center" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; ">
-                Developed and designed by Rhudhra phriyamvadha K S</h3>
+                Designed and developed by Rhudhra phriyamvadha K S</h3>
         </footer>
     </main>
 </body>
@@ -244,23 +244,75 @@ home.html
 </head>
 
 <style>
+body{
+    background-color: rgb(16, 204, 195) ;
+}
+
     header{
+        text-align: center;
         font-size: 50px;
         font-style:initial;
-        background-color: rgb(242, 138, 169);
+        background-color: rgb(31, 107, 103);
     }
     .content{
         font-size: medium;
         padding: 10px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
-</style>
-<body bgcolor="pink">
-    <center>
-        <header style="color: rgb(164, 4, 79);">
-            LITTLE LEMON
-        </header>
 
+    .menu{
+    background-color: rgb(17, 86, 82);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(229, 250, 4);
+    padding: 20px;
+    
+    
+}
+    nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer{
+    padding: 10px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 90px;
+    font-size: larger;
+    color: #f0e9e9;
+    font-weight: bold;
+}
+</style>
+<body>
+     
+        <header style="color: rgb(246, 245, 245);">
+            <h3>LITTLE LEMON</h3>
+    </header>
+
+            <nav class="menu" >
+                <ul>
+                    <li><a href="frontpage.html">Home</a></li>
+                    <li><a href="home.html">About us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+        
+     <center>
         <img src="/static/home2.webp" width="1500" height="400">
         
         <div class="content">
@@ -302,7 +354,7 @@ home.html
                 <p align="center" class="copy">&copy; Copyright Little Lemon</p>
 
             <h3 align="center" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; ">
-                Developed and designed by Rhudhra phriyamvadha K S</h3>
+               Designed and developed by Rhudhra phriyamvadha K S</h3>
         </footer>
     </center>
     <div class="logo">
@@ -326,7 +378,6 @@ menu.html
         </div>
 
     <style>
-        /* General body styles */
         body {
             font-family:'Times New Roman', Times, serif;
             margin: 0;
@@ -360,12 +411,12 @@ menu.html
             color: #333;
         }
 
-        /* Header styles */
+        
         header {
             text-align: center;
             padding: 20px 0;
             color: #fff;
-            background-color: #723c6b; /* Orange header */
+            background-color: #723c6b; 
             border-radius: 15px 15px 0 0;
         }
 
@@ -374,16 +425,16 @@ menu.html
             font-size: 30px;
         }
 
-        /* Section titles */
+       
         h2 {
             text-align: center;
-            color: #27ae60; /* Green color */
+            color: #27ae60; 
             border-bottom: 2px solid #d35400;
             font-size: 25px;
             margin-bottom: 20px;
         }
 
-        /* Menu items */
+        
         .menu-item {
             display: flex;
             justify-content: space-between;
@@ -419,14 +470,13 @@ menu.html
             color: #7f8c8d;
         }
 
-        /* Footer */
+        
         .footer {
             text-align: center;
             padding: 20px;
             color: #bdc3c7;
         }
 
-        /* Responsive styles */
         @media screen and (max-width: 768px) {
             .menu-container {
                 width: 95%;
@@ -441,14 +491,63 @@ menu.html
                 margin-bottom: 10px;
             }
         }
+
+        .menu{
+    background-color: #7023669c;
+    align-items: left;
+    display: flex;
+    justify-content: center;
+    color: rgb(229, 250, 4);
+    padding: 20px;
+    align-items: center;
+   
+}
+
+        nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer{
+    padding: 10px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 90px;
+    font-size: larger;
+    color: #f0e9e9;
+    font-weight: bold;
+}
     </style>
 </head>
 <body bgcolor="lavender">
 <div class="overlay"></div>
 
 <header>
-    <h1>WELCOME TO OUR RESTAURENT</h1>    
-</header>
+    <h1>WELCOME TO OUR RESTAURENT</h1> 
+</header> 
+
+    
+    <nav class="menu">
+        <ul>
+            <li><a href="frontpage.html">Home</a></li>
+            <li><a href="home.html">About us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+
+
 
 <div class="menu-container">
 
@@ -681,13 +780,66 @@ admin.html
     .copy{
     margin-left: auto
     }
+
+    .menu{
+    background-color: rgb(171, 136, 90);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(229, 250, 4);
+    padding: 20px;
+    border-radius: 50px;
+    
+}
+
+    nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer{
+    padding: 10px 10px;
+    
+}
+
+.copy{
+    margin-left: auto;
+    padding-top: 50px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 90px;
+    font-size: larger;
+    color: #f0e9e9;
+    font-weight: bold;
+}
+
 </style>
 
 <body>
     <center>
     <header>
-        ABOUT US
+       OUR SENATE
     </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="frontpage.html">Home</a></li>
+                <li><a href="home.html">About us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    
     <h1>LITTLE LEMON RESTAURENT</h1>
     <p style="font-size: larger;">The Little lemon restaurent is a premium South Indian restaurent. At the little lemon it is ensured that all the cuisines are prepared 
         on-the-go and served hot to customers using the best and fresh highquality ingredients, authentic recipes with the highest hygiene standards.
@@ -763,9 +915,9 @@ admin.html
         </p>
         </footer>
 
-    <p class="copy">&copy; Copyright Little Lemon</p>
-    <h3 align="center" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; ">
-        Developed and designed by Rhudhra phriyamvadha K S</h3>
+    <p class="copy">&copy; Copyright Little Lemon
+    <h3  align="center" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; ">
+        Designed and developed by Rhudhra phriyamvadha K S</h3></p>
 
     </center>
 </body>
@@ -780,39 +932,69 @@ contact.html
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f6dba5;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content:center;
-            align-items:center;
-            height: 100vh;
-        }
+</head>
+<style>
 
-        header{
-        font-size: 200%;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 194, 243);
+}
+    header{
+        font-size: 420%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        .address{
-        font-size: medium;
-        }
-
-        .contact{
-        font-size: 50px;
+    }
+    .address{
+        font-size: x-large;
+    }
+    .contact{
+        font-size: larger;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
+    }
 
-        .feedback-form {
-            background-color: #fcfcd4;
+    .menu{
+    background-color: rgb(212, 127, 212);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(229, 250, 4);
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+    nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer{
+    padding: 10px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 80px;
+    font-size: x-large;
+    color: #f0e9e9;
+    font-weight: bold;
+}
+
+.feedback-form {
+            background-color: rgb(188, 218, 231);
             border: 1px solid #ddd;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            width: 300px;
+            width: 800px;
+            
         }
         .feedback-form h2 {
             text-align: center;
@@ -846,44 +1028,76 @@ contact.html
         .feedback-form button:hover {
             background-color: #a54444;
         }
-    </style>
-</head>
-<body bgcolor="pink">
-    <center>
-        <header style="color: rgb(176, 20, 20);"><b>LITTLE LEMON RESTAURENT</b></header>
-        <img src="/static/LOGO (2).png" width="450" height="450" >
-     </center>
-    
-    <center>
-     <p style="font-size:20px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; "><b>WE'RE HERE FOR YOU</b></p>
-    <p style="font-size:20px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; "><b>PHONE: +91 0123456789|EMAIL ID: littlelemon@gmail.com</b></p> 
-    <p style="font-size:20px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; "><b>ADDRESS: Near SEC College, Thandalam, Chennai</b></p>
-   </center>
 
+        .copy{
+    margin-left: auto;
+    padding-top: 50px;
+}
+
+</style>
+
+<body>
+    <center>
+        <header style="color: rgb(176, 20, 20);">LITTLE LEMON
+        </header>
+    </center>
+        <nav class="menu">
+            <ul>
+                <li><a href="frontpage.html">Home</a></li>
+                <li><a href="home.html">About us </a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    <center>
+        <img src="/static/LOGO (2).png" width="503" height="511">
+    </center>
+
+
+<center>  
+    <p style="font-size:25px; font-family: 'Times New Roman', Times, serif; color: rgb(187, 100, 100) ;"><b>WE'RE HERE FOR YOU</b></p>
+    <p style="font-size:25px; font-family: 'Times New Roman', Times, serif; color: rgb(187, 100, 100);"><b>PHONE: +91 0123456789|EMAIL ID: Littlelemon@gmail.com</b></p> 
+    <p style="font-size:25px; font-family: 'Times New Roman', Times, serif; color: rgb(187, 100, 100);"><b> ADDRESS:Near SEC College, Thandalam, Chennai</b></p>
+</center> 
+
+<center>
     <div class="feedback-form">
-        <h2>FEEDBACK</h2>
+        <h2>GET IN TOUCH WITH US</h2>
         <form>
-            <input type="text" placeholder="Your Name" required>
+            <input type="text" placeholder="Name" required>
             <input type="tel" placeholder="Phone Number" required>
             <input type="email" placeholder="E-mail" required>
             <textarea placeholder="Message" required></textarea>
-            <button type="submit">SUBMIT</button>
+            <button type="submit">HIT ME</button>
         </form>
     </div>
+</center>
 
-</body>
-</html>
+
+<footer>
+            
+    <p align="center" class="copy">&copy; Copyright Little Lemon</p>
+
+<h3 align="center" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; ">
+   Designed and developed by Rhudhra phriyamvadha K S</h3>
+</footer>
+    </body>
+    </html>
 ```
 
+
 ## OUTPUT:
-![alt text](frontpage.png)
-![alt text](home1.png)
-![alt text](home2.png)
+
+![alt text](home.png)
+![alt text](<about 1.png>)
+![alt text](<about 2.png>)
 ![alt text](<menu 1.png>)
 ![alt text](<menu 2.png>)
 ![alt text](<admin 1.png>)
 ![alt text](<admin 2.png>)
 ![alt text](<admin 3.png>)
+![alt text](<admin 4.png>)
 ![alt text](contact.png)
 
 ## RESULT:
